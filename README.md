@@ -1,6 +1,6 @@
 🔧 Predictive Maintenance for Industrial Machines
 
-Author: Kondagurla Parshi
+Author: Kondagurla Parshi,
 Tools: Python, Pandas,  Scikit-learn, XGBoost, Matplotlib, Seaborn, Google Colab
 Goal: Predict whether a machine is going to fail based on sensor readings so industries can prevent breakdowns and reduce maintenance costs.
 
