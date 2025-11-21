@@ -1,6 +1,7 @@
 🔧 Predictive Maintenance for Industrial Machines
 
 Author: Kondagurla Parshi,
+
 Tools: Python, Pandas,  Scikit-learn, XGBoost, Matplotlib, Seaborn, Google Colab
 Goal: Predict whether a machine is going to fail based on sensor readings so industries can prevent breakdowns and reduce maintenance costs.
 
@@ -76,12 +77,13 @@ RPM, Torque, and Tool Wear are the strongest indicators
 Failures follow clear sensor patterns
 
 XGBoost gives best recall → catches more potential failures early
+| Model               | Accuracy  | Precision | Recall    | F1-Score  |
+| ------------------- | --------- | --------- | --------- | --------- |
+| Logistic Regression | ~0.85     | ~0.80     | ~0.77     | ~0.78     |
+| Random Forest       | ~0.93     | ~0.92     | ~0.91     | ~0.91     |
+| **XGBoost** (Best)  | **~0.95** | **~0.94** | **~0.94** | **~0.94** |
 
-📊 Results
-Model	Accuracy	Precision	Recall	F1-Score
-Logistic Regression	~0.85	~0.80	~0.77	~0.78
-Random Forest	~0.93	~0.92	~0.91	~0.91
-XGBoost (Best)	~0.95	~0.94	~0.94	~0.94
+
 🔹 Best Model: XGBoost Classifier
 🔹 Key Drivers: RPM, Torque, Tool Wear, Temperatures
 🔹 Business Impact:
